@@ -1,0 +1,6 @@
+﻿{
+  "cleareffects.config.title": "ClearEffects Config",
+  "cleareffects.config.disableBlindness": "Disable Blindness Shader",
+  "cleareffects.config.disableDarkness": "Disable Darkness Shader",
+  "cleareffects.config.disableNausea": "Disable Nausea Shader"
+}

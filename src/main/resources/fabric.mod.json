@@ -1,0 +1,23 @@
+﻿{
+  "schemaVersion": 1,
+  "id": "cleareffects",
+  "version": "${version}",
+  "name": "ClearEffects",
+  "description": "Remove blindness, darkness and nausea visual effects while keeping the status effects.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.cleareffects.ClearEffectsMod"
+    ]
+  },
+  "mixins": [
+    "cleareffects.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.11",
+    "java": ">=17"
+  }
+}
